@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Yousers
+O Yousers é um sistema de gerenciamento de usuários.
 
-## Getting Started
+## Rodar o projeto
+O gerenciamento de dependências de Front-end fica a cargo do **Yarn**.
 
-First, run the development server:
+Para iniciar o projeto use os comandos:
+ `yarn install`
+ 
+ Em seguida:
+ `yarn dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Desenvolvimento
+A aplicação foi desenvolvida utilizando Next JS (facilitador do React) com Typescript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O fluxo da aplicação foi feito 100% com localStorage, aplicando os conceitos de CRUD, React hooks, styled components, context, etc!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
+- Autenticação
+- Criar usuário
+- Listar Usuários
+- Editar usuário
+- Excluir usuário
+- Buscar usuários
+- Gerar PDF
+- Gerar Excel
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## URL Figma
+Criei um esboço do sistema para me guiar melhor durante o desenvolvimento.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**[figma.com/users](https://www.figma.com/file/EvPYOxToTpuXnJ4SJBnU7e/Desafio?node-id=0%3A1)**
 
-## Learn More
+## URL Compilação
 
-To learn more about Next.js, take a look at the following resources:
+**[yousers.com](https://www.figma.com/file/EvPYOxToTpuXnJ4SJBnU7e/Desafio?node-id=0%3A1)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
