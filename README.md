@@ -30,8 +30,3 @@ Criei um esboço do sistema para me guiar melhor durante o desenvolvimento.
 
 **[figma.com/users](https://www.figma.com/file/EvPYOxToTpuXnJ4SJBnU7e/Desafio?node-id=0%3A1)**
 
-## URL Compilação
-
-**[yousers.com](https://www.figma.com/file/EvPYOxToTpuXnJ4SJBnU7e/Desafio?node-id=0%3A1)**
-
-
